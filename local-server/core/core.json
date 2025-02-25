@@ -1,0 +1,9 @@
+{
+  "core": {
+    "name": "FCE Core",
+    "version": "1.0.0",
+    "buildDate": "2025-02-25",
+    "author": "Tommager",
+    "description": "The core component of the FCE system, responsible for setting up the web server and managing related tasks."
+  }
+}
