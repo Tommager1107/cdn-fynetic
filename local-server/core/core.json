@@ -1,6 +1,7 @@
 {
   "core": {
-    "name": "FCE Core",
+    "name": "FCE-FyneticCoreEngine",
+    "lang": "html",
     "version": "1.0.0",
     "buildDate": "2025-02-25",
     "author": "Tommager",
