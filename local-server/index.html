@@ -4,111 +4,70 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Fynetic Web Server</title>
-    <script src="https://cdn.tailwindcss.com"></script>
     <style>
+     
         body {
-            background-color: #121212;
-            color: #e0e0e0;
-            font-family: 'Inter', sans-serif;
-        }
-
-        .container {
-            background: #1f1f1f;
-            border-radius: 10px;
-            padding: 30px;
-            box-shadow: 0 4px 20px rgba(0, 0, 0, 0.5);
-        }
-
-        h1 {
-            font-size: 3rem;
-            color: #eaeaea;
-        }
-
-        p {
-            font-size: 1.1rem;
-            color: #ccc;
-            line-height: 1.6;
-        }
-
-        .important-note {
-            background-color: #343a40;
-            color: #e53e3e;
-            padding: 20px;
-            border-left: 5px solid #ff5c5c;
-            font-weight: bold;
-            margin-top: 25px;
-            border-radius: 8px;
-        }
-
-            .important-note a {
-                color: #38a169;
-                font-weight: bold;
-                text-decoration: underline;
-            }
-
-        .button {
-            transition: all 0.3s ease-in-out;
-            background: #4C51BF;
-            padding: 12px 24px;
-            border-radius: 8px;
+            background-color: #000;
             color: #fff;
-            text-transform: uppercase;
-            font-weight: 600;
-            cursor: pointer;
-            border: none;
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            text-align: center;
         }
 
-            .button:hover {
-                background: #3b3995;
-            }
+   
+        h1 {
+            color: #0099ff;
+            font-size: 2.5rem;
+            margin-top: 50px;
+        }
 
-        hr {
-            border-color: #444;
-            margin: 25px 0;
+        .content {
+            max-width: 800px;
+            margin: 40px auto;
+            padding: 20px;
+            background: #0a0a0a;
+            border: 1px solid #005f99;
+            border-radius: 8px;
+            box-shadow: 0px 0px 15px rgba(0, 153, 255, 0.2);
+        }
+
+
+        .notice {
+            color: #00ccff;
+            font-size: 1.1rem;
+            margin-top: 20px;
+        }
+
+
+        code {
+            background: #001f33;
+            padding: 4px 8px;
+            border-radius: 4px;
+            color: #00ccff;
+            font-size: 0.95rem;
+        }
+
+ 
+        .footer {
+            margin-top: 50px;
+            font-size: 0.9rem;
+            color: #666;
         }
     </style>
 </head>
-<body class="flex items-center justify-center h-screen">
+<body>
 
-    <div class="text-center max-w-3xl p-10 container">
-        <h1 class="font-bold">Welcome to Fynetic Web Server</h1>
-        <p class="mt-3 text-lg">
-            Your lightweight and efficient hosting solution, designed for performance and simplicity.
-        </p>
+    <h1>Welcome to Fynetic Web Server</h1>
 
-        <hr class="my-6">
+    <div class="content">
+        <p>If you are seeing this page, the Fynetic Web Server is successfully installed and working.</p>
+        <p>To modify this page, edit the file: <code>www/index.html</code></p>
+        <p class="notice"><strong>For further configuration, please visit <a href="https://tommager1107.github.io/FyneticLocalServer/" style="color: #00ccff; text-decoration: none;">Fynetic Documentation</a></strong></p>
+    </div>
 
-        <p class="text-md">
-            This web server is developed by <strong>Tommager from Fynetic.sk</strong>.
-            To customize this page, edit <code class="bg-gray-700 p-1 rounded text-white">www/index.html</code>.
-        </p>
-
-        <div class="important-note">
-            <p>This web server is designed for developers or small projects. <strong>For larger-scale projects, we recommend considering <a href="https://fynetic.sk" target="_blank">our premium hosting</a> for better performance, security, and 24/7 support.</strong></p>
-        </div>
-
-        <hr class="my-6">
-
-        <p class="text-lg font-semibold">About Fynetic Web Server</p>
-        <p class="text-md">
-            Fynetic Web Server is a high-performance local server built for developers and small projects.
-            It ensures smooth operations while being easy to set up and configure.
-        </p>
-
-        <p class="mt-6 text-sm">
-            Powered by
-            <a href="https://fynetic.sk" class="font-semibold hover:text-blue-600 transition duration-300">
-                Fynetic
-            </a>
-        </p>
-
-        <p class="mt-6 text-sm">
-            
-        <p>&#169; Fynetic Core Engine</p>
-            
-        </p>
-
-
+    <div class="footer">
+        <p>Powered by <strong>Fynetic Core Engine</strong> &bull; © 2024</p>
     </div>
 
 </body>
